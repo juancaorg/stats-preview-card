@@ -28,6 +28,13 @@ body {
   align-items: center;
 }
 
+.stats-preview-card {
+  max-width: 327px;
+  background-color: var(--dark-desaturated-blue);
+  margin: auto;
+  border-radius: 0.625rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
