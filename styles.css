@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400;700&display=swap");
 
 :root,
 * {
@@ -17,6 +17,15 @@
   --white: hsl(0, 0%, 100%);
   --slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
   --slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+  display: grid;
+  align-items: center;
 }
 
 .attribution {
