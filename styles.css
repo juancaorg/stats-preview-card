@@ -37,8 +37,7 @@ body {
 
 .card__image-header > img {
   width: 100%;
-  border-top-left-radius: 0.625rem;
-  border-top-right-radius: 0.625rem;
+  border-radius: 0.625rem 0.625rem 0 0;
 }
 
 .card__text-container {
