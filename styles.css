@@ -115,3 +115,56 @@ body {
 .attribution a:hover {
   color: hsl(212, 95%, 48%);
 }
+
+@media screen and (min-width: 1110px) {
+  .stats-preview-card {
+    max-width: 1110px;
+    max-height: 446px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card__image-header > img {
+    width: 540px;
+    border-radius: 0 0.625rem 0.625rem 0;
+  }
+
+  .stats-preview-card::after {
+    border-radius: 0 0.625rem 0.625rem 0;
+    min-height: 446px;
+    width: 540px;
+    left: 570px;
+  }
+
+  .card__text-container {
+    max-width: 570px;
+    padding-left: 72px;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card__title {
+    font-size: 2.2rem;
+    text-align: start;
+  }
+
+  .card__description {
+    margin-top: 1.65rem;
+    margin-bottom: 4.5rem;
+    text-align: start;
+  }
+
+  .card__stats-list {
+    margin-right: 1rem;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card__stats-list > li:nth-child(2) {
+    margin: unset;
+  }
+}
