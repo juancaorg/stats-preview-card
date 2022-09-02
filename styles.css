@@ -103,10 +103,15 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.75rem;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--soft-violet);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(212, 95%, 48%);
 }
