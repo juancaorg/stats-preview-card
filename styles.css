@@ -39,7 +39,6 @@ picture {
   background-color: var(--dark-desaturated-blue);
   margin: auto;
   border-radius: 0.625rem;
-  position: relative;
 }
 
 .card__image-container {
