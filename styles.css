@@ -129,6 +129,7 @@ picture {
 
   .card__image-header > img {
     border-radius: 0 0.625rem 0.625rem 0;
+    object-fit: cover;
     width: 100%;
   }
 
