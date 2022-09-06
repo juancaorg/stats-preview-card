@@ -28,6 +28,12 @@ body {
   align-content: center;
 }
 
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
 .stats-preview-card {
   max-width: 327px;
   background-color: var(--dark-desaturated-blue);
@@ -39,7 +45,6 @@ body {
 .card__image-container {
   background-color: var(--soft-violet);
   border-radius: 0.625rem 0.625rem 0 0;
-  height: 240px;
 }
 
 .card__image-header > img {
@@ -114,14 +119,12 @@ body {
 @media screen and (min-width: 1110px) {
   .stats-preview-card {
     max-width: 1110px;
-    max-height: 446px;
     display: flex;
     flex-direction: row-reverse;
   }
 
   .card__image-container {
     border-radius: 0 0.625rem 0.625rem 0;
-    height: 446px;
   }
 
   .card__image-header > img {
