@@ -101,7 +101,8 @@ picture {
 }
 
 .attribution {
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 0.75rem;
   text-align: center;
 }
