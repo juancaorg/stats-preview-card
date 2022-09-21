@@ -49,7 +49,7 @@ picture {
 
 .card__image-header>img {
   mix-blend-mode: multiply;
-  opacity: 84%;
+  opacity: 75%;
   width: 100%;
 }
 
