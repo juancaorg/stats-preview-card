@@ -58,9 +58,11 @@ picture {
 }
 
 .card__title {
-  font-size: 1.7rem;
   font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
   text-align: center;
+  margin-top: 0.5rem;
 }
 
 .card__title-highlight {
