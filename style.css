@@ -82,24 +82,29 @@ picture {
 .card__stats-list {
   color: var(--slightly-transparent-white-stat-headings);
   font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
   font-size: 0.75rem;
-  line-height: 1.7rem;
+  line-height: 1.5625rem;
   list-style-type: none;
   text-align: center;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
 }
 
 .card__stats-list-number {
   color: var(--white);
   font-family: "Inter", sans-serif;
-  font-size: 1.5rem;
   font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  letter-spacing: 0;
   display: flex;
   flex-direction: column;
 }
 
 .card__stats-list>li:nth-child(2) {
-  margin-top: 1.125rem;
-  margin-bottom: 1.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .attribution {
