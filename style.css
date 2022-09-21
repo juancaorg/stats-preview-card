@@ -37,17 +37,17 @@ picture {
 .stats-preview-card {
   max-width: 327px;
   background-color: var(--dark-desaturated-blue);
+  border-radius: 0.5rem;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
   margin: auto;
-  border-radius: 0.625rem;
 }
 
 .card__image-container {
   background-color: var(--soft-violet);
-  border-radius: 0.625rem 0.625rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card__image-header>img {
-  border-radius: 0.625rem 0.625rem 0 0;
   mix-blend-mode: multiply;
   opacity: 84%;
   width: 100%;
