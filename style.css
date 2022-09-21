@@ -142,26 +142,29 @@ picture {
 
   .card__text-container {
     max-width: 570px;
-    padding-left: 72px;
-    padding-right: 128px;
+    padding: 4.5rem 5.9375rem 3rem 4.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   .card__title {
-    font-size: 2.2rem;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
     text-align: start;
   }
 
   .card__description {
-    margin-top: 1.65rem;
+    margin-top: 1.5625rem;
     margin-bottom: 4.5rem;
+    margin-right: 1.8125rem;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
     text-align: start;
   }
 
   .card__stats-list {
-    margin-right: 1rem;
+    margin-right: 3.1875rem;
     text-align: start;
     display: flex;
     flex-direction: row;
